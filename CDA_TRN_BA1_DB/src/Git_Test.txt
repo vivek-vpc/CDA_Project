@@ -1,1 +1,1 @@
-Git Test File User 2 Changes. Changes by User1.
+Git Test File User 2 Changes
