@@ -1,0 +1,17 @@
+{
+  "role": {
+    "name": "CDA_TRN_BA1.CDA_TRN_BA1_DB::Role_AP_CDA_COUNTRY_FR",
+     "schema_analytic_privileges": [
+            {
+               "privileges":[ "CDA_TRN_BA1.CDA_TRN_BA1_DB::AP_CDA_COUNTRY_FR" ]
+            }
+        ],
+     "object_privileges":[
+			{
+			"name": "CDA_TRN_BA1.CDA_TRN_BA1_DB::CV_GL_COPA",
+			"type": "VIEW",
+			"privileges": [ "SELECT" ]
+			}
+		]
+	}
+}

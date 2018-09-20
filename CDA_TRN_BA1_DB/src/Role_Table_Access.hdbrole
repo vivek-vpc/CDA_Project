@@ -1,0 +1,17 @@
+{
+	"role":{
+	  "name": "CDA_TRN_BA1.CDA_TRN_BA1_DB::Role_Table_Access",
+	  "object_privileges":[
+			{
+			"name": "CDA_TRN_BA1.CDA_TRN_BA1_DB::Finance_Tables.COPA",
+			"type": "TABLE",
+			"privileges": [ "SELECT" ]
+			},
+			{
+			"name": "CDA_TRN_BA1.CDA_TRN_BA1_DB::Finance_Tables.GL",
+			"type": "TABLE",
+			"privileges": [ "SELECT" ]
+			}
+        ]
+	}
+}

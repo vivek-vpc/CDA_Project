@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Privilege:analyticPrivilege xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:AccessControl="http://www.sap.com/ndb/SQLCoreModelAccessControl.ecore" xmlns:Privilege="http://www.sap.com/ndb/BiModelPrivilege.ecore" id="CDA_TRN_BA1.CDA_TRN_BA1_DB::AP_CDA_COUNTRY_GR" privilegeType="SQL_ANALYTIC_PRIVILEGE" schemaVersion="1.1">
+<descriptions defaultDescription="AP_CDA_COUNTRY_GR"/>
+<securedModels>
+  <modelUri>CDA_TRN_BA1.CDA_TRN_BA1_DB::CV_GL_COPA</modelUri>
+</securedModels>
+
+<restriction>
+  <filter attributeName="Country" xsi:type="Privilege:AttributeFilter">
+    <valueFilter xsi:type="AccessControl:SingleValueFilter" including="true" value="GR" lowValue="undefined" highValue="undefined"/>
+  </filter>
+  <attributeName>Country</attributeName>
+  <originInformationModelUri>CDA_TRN_BA1.CDA_TRN_BA1_DB::CV_GL_COPA</originInformationModelUri>
+</restriction>
+</Privilege:analyticPrivilege>

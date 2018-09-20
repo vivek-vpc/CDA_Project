@@ -1,0 +1,20 @@
+ID: CDA_TRN_BA1
+_schema-version: '2.0'
+description: CDA_TRN_BA1
+version: 0.0.1
+
+modules:
+ - name: CDA_TRN_BA1_DB
+   type: hdb
+   path: CDA_TRN_BA1_DB
+   requires:
+    - name: hdi_CDA_TRN_BA1_DB
+
+resources:
+ - name: hdi_CDA_TRN_BA1_DB
+   parameters:
+      config:
+         schema: CDA_TRN_BA1_SCHEMA
+   properties:
+      hdi-container-name: ${service-name}
+   type: com.sap.xs.hdi-container
